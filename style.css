@@ -1,0 +1,19 @@
+.heading{
+    color: #00ff00;
+}
+
+.result{
+    color: white;
+}
+
+.quiz{
+    background-color: #00ff00c4;
+}
+
+.sub{
+    color: #00ff00;
+}
+
+#normal{
+    display: none;
+}

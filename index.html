@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The GLUG Quiz</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="intro py-1 bg-dark text-center">
+    <div class="container">
+      <h2 class="heading display-3 my-4">The GLUG Quiz</h2>
+    </div>
+  </div>
+
+   <div class="result py-4 d-none bg-dark text-center">
+    <div class="container lead">
+      <p class="result">You are <span class="heading result-super display-4 p-3">0%</span>correct.</p>
+      <p id="flag"></p>
+      <p id="normal"></p>
+    </div>
+  </div>
+
+  <div class="quiz py-4">
+    <div class="container">
+      <h2 class="my-5 text-black">Answer the questions to get the $FLAG</h2>
+
+      <form class="quiz-form text-black">
+        <div class="my-5">
+          <p class="lead font-weight-normal">1. Do you like Linux ?</p>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q1" value="A" checked>
+            <label class="form-check-label">Yes, definitely.</label>
+          </div>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q1" value="B">
+            <label class="form-check-label">No.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">2. How is MiniCTF going for you?</p>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q2" value="A" checked>
+            <label class="form-check-label">Aweeeeesooommmmeeeeeee.</label>
+          </div>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q2" value="B">
+            <label class="form-check-label">Difficult, but yet interesting.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">3. What is the full form of URL?</p>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q3" value="A" checked>
+            <label class="form-check-label">Uniform Resource Locator.</label>
+          </div>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q3" value="B">
+            <label class="form-check-label">Ultimate Recursive Lineage.</label>
+          </div>
+        </div>
+        <div class="my-5">
+          <p class="lead font-weight-normal">4. What comes after a Sunday?</p>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q4" value="A" checked>
+            <label class="form-check-label">Monday.</label>
+          </div>
+          <div class="form-check my-2 text-dark-50">
+            <input type="radio" name="q4" value="B">
+            <label class="form-check-label">Tuesday.</label>
+          </div>
+        </div>
+        <div class="text-center">
+          <input type="submit" class="sub btn btn-dark"> 
+        </div>
+      </form>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
