@@ -1,4 +1,4 @@
-const correctAnswers = ['A', 'A', 'A', 'A'];
+const correctAnswers = ['A', 'A', 'B', 'B'];
 const form = document.querySelector('.quiz-form');
 const result = document.querySelector('.result');
 
@@ -27,10 +27,10 @@ form.addEventListener('submit', e => {
     }
     if(score === 100){
       document.getElementById('flag').innerHTML = 'You have got your flag, but where is it?';
-      document.getElementById('normal').innerHTML = 'GLUG{1t_w4s_4n_3aSy_qU1z}';
+      document.getElementById('flag-text').innerHTML = 'Hmmmm.. You are close';
     } else {
       document.getElementById('flag').innerHTML = '';
-      document.getElementById('normal').innerHTML = '';
+      document.getElementById('flag-text').innerHTML = '';
     }
   }, 10);
 });

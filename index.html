@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>The GLUG Quiz</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
 
@@ -19,7 +19,7 @@
     <div class="container lead">
       <p class="result">You are <span class="heading result-super display-4 p-3">0%</span>correct.</p>
       <p id="flag"></p>
-      <p id="normal"></p>
+      <p id="flag-text"></p>
     </div>
   </div>
 
@@ -29,18 +29,18 @@
 
       <form class="quiz-form text-black">
         <div class="my-5">
-          <p class="lead font-weight-normal">1. Do you like Linux ?</p>
+          <p class="lead font-weight-normal">1. Are you using Linux ?</p>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q1" value="A">
             <label class="form-check-label">Yes, definitely.</label>
           </div>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q1" value="B">
-            <label class="form-check-label">No.</label>
+            <label class="form-check-label">No, but will shift to Linux soon.</label>
           </div>
         </div>
         <div class="my-5">
-          <p class="lead font-weight-normal">2. How is MiniCTF going for you?</p>
+          <p class="lead font-weight-normal">2. How is MiniCTF going for you ?</p>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q2" value="A">
             <label class="form-check-label">Aweeeeesooommmmeeeeeee.</label>
@@ -51,25 +51,25 @@
           </div>
         </div>
         <div class="my-5">
-          <p class="lead font-weight-normal">3. What is the full form of URL?</p>
+          <p class="lead font-weight-normal">3. What is the full form of CTF ?</p>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q3" value="A">
-            <label class="form-check-label">Uniform Resource Locator.</label>
+            <label class="form-check-label">Count the Frogs.</label>
           </div>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q3" value="B">
-            <label class="form-check-label">Ultimate Recursive Lineage.</label>
+            <label class="form-check-label">Capture The Flag.</label>
           </div>
         </div>
         <div class="my-5">
-          <p class="lead font-weight-normal">4. What comes after a Sunday?</p>
+          <p class="lead font-weight-normal">4. What are the basic components of a website ?</p>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q4" value="A">
-            <label class="form-check-label">Monday.</label>
+            <label class="form-check-label">Water, Sugar and Lemon.</label>
           </div>
           <div class="form-check my-2 text-dark-50">
             <input type="radio" name="q4" value="B">
-            <label class="form-check-label">Tuesday.</label>
+            <label class="form-check-label">HTML, CSS and JS.</label>
           </div>
         </div>
         <div class="text-center">
@@ -78,6 +78,6 @@
       </form>
     </div>
   </div>
-  <script src="app.js"></script>
+  <script src="static/app.js"></script>
 </body>
 </html>
