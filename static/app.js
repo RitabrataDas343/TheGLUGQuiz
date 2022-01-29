@@ -27,7 +27,7 @@ form.addEventListener('submit', e => {
     }
     if(score === 100){
       document.getElementById('flag').innerHTML = 'You have got your flag, but where is it?';
-      document.getElementById('flag-text').innerHTML = 'Hmmmm.. You are close';
+      document.getElementById('flag-text').innerHTML = '<span class="glug-flag">Hmmmm.. You are close</span>';
     } else {
       document.getElementById('flag').innerHTML = '';
       document.getElementById('flag-text').innerHTML = '';
