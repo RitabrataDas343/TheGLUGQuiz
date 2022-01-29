@@ -15,6 +15,9 @@
 }
 
 #flag-text{
-    content: 'GLUG{1t_w4s_4n_e4sY_qU1z}';
     display: none;
+}
+
+#glug-flag{
+    content: 'GLUG{1t_w4s_4n_e4sY_qU1z}';
 }
